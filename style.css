@@ -96,6 +96,9 @@ a {
 
 /* Wider screen mobile browser */
 @media only screen and (min-width: 721px) and (max-width: 1024px) {
+  body {
+    margin: 10px;
+  }
   .btn-default {
     background-color: #fc6100;
     font: inherit;
@@ -183,6 +186,9 @@ a {
 
 /* Small screen mobile browser */
 @media only screen and (max-width: 720px) {
+  body {
+    margin: 20px;
+  }
   .btn-default {
     background-color: #fc6100;
     font: inherit;
@@ -206,7 +212,7 @@ a {
     width: 120px;
     height: 40px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color: #fc6100;
     text-align: center;
     vertical-align: center;
