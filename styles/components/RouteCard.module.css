@@ -1,0 +1,69 @@
+.routeName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.card {
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 20px 40px #d6d2d1;
+  margin-bottom: 25px;
+}
+
+.cardTop {
+  background-color: lightgray;
+  height: 60%;
+}
+
+.cardBottom {
+  background-color: white;
+  /* padding: 20px; */
+  margin: 10px 20px;
+}
+
+.image {
+  /* max-width: auto; */
+  height: 100%;
+  width: auto;
+  object-fit: fill;
+}
+
+.difficulty,
+.distance,
+.elevationGain {
+  color: gray;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.difficulty {
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  height: 18px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.easy {
+  background-color: #00d100;
+}
+
+.moderate {
+  background-color: #0080ff;
+}
+
+.hard {
+  background-color: black;
+}

@@ -16,9 +16,6 @@ export default function HomePage() {
           <SecondaryButton />
         </Link>
       </div>
-      {/* <div className={styles.rightContainer}>
-        <img className={styles.heroImage} src="images/sarah2.jpg" />
-      </div> */}
     </div>
   );
 }

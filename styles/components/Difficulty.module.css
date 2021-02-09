@@ -1,0 +1,21 @@
+.difficulty {
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  height: 18px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.easy {
+  background-color: #00d100;
+}
+
+.moderate {
+  background-color: #0080ff;
+}
+
+.hard {
+  background-color: black;
+}
