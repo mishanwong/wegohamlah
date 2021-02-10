@@ -6,6 +6,17 @@ function routes() {
   return (
     <div>
       <h1>Routes</h1>
+      <Link href="/routes/lake-union-loop">
+        <a style={{ textDecoration: "none" }}>
+          <RouteCard
+            routeName="Lake Union Loop"
+            difficulty="Easy"
+            distance="6.4"
+            elevationGain="193"
+            image="lakeunion2.jpg"
+          />
+        </a>
+      </Link>
       <Link href="/routes/seward-park">
         <a style={{ textDecoration: "none" }}>
           <RouteCard

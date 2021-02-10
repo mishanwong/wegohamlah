@@ -16,7 +16,7 @@ function Difficulty(props) {
         {props.difficulty}
       </div>
     );
-  } else {
+  } else if (difficulty === "Easy") {
     return (
       <div className={`${styles.difficulty} ${styles.easy}`}>
         {props.difficulty}
