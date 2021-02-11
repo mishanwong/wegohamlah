@@ -1,0 +1,16 @@
+.title {
+  color: #fc6100;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.item {
+  margin-right: 20px;
+}
