@@ -21,7 +21,6 @@
 
 .cardBottom {
   background-color: white;
-  /* padding: 20px; */
   margin: 10px 20px;
 }
 
@@ -32,7 +31,6 @@
   object-fit: fill;
 }
 
-.difficulty,
 .distance,
 .elevationGain {
   color: gray;
@@ -46,24 +44,28 @@
   margin-top: 10px;
 }
 
-.difficulty {
-  border-radius: 10px;
-  color: white;
-  width: 100px;
-  height: 18px;
-  font-size: 13px;
-  text-align: center;
-  line-height: 18px;
-}
+@media (max-width: 720px) {
+  .routeName {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
 
-.easy {
-  background-color: #00d100;
-}
+  .card {
+    width: 300px;
+    height: 188px;
+  }
 
-.moderate {
-  background-color: #0080ff;
-}
+  .cardBottom {
+    margin-top: 5px;
+    margin-left: 15px;
+  }
 
-.hard {
-  background-color: black;
+  .distance,
+  .elevationGain {
+    font-size: 12px;
+  }
+
+  .row {
+    margin-top: 6px;
+  }
 }

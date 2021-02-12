@@ -19,3 +19,11 @@
 .hard {
   background-color: black;
 }
+
+@media (max-width: 720px) {
+  .difficulty {
+    height: 17px;
+    width: 80px;
+    font-size: 12px;
+  }
+}
