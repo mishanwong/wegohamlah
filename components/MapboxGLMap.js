@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
-import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
 import Head from "next/head";
 import styles from "../styles/components/Map.module.css";
 
