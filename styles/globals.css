@@ -2,15 +2,21 @@ html,
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
-  padding: 20px;
-  width: 80%;
-  margin: auto;
+  width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 @media (max-width: 720px) {
   body {
-    width: 90%;
-    padding: 10px;
-    margin: 10px;
+    width: 100vw;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } */
   }
 }
