@@ -1,5 +1,6 @@
 html,
 body {
+  /* background-image: url("../public/images/520-bridge-seattle.jpeg"); */
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
   width: 80vw;
@@ -12,11 +13,5 @@ body {
 @media (max-width: 720px) {
   body {
     width: 100vw;
-    /* padding: 10px; */
-    /* margin: 10px; */
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
   }
 }
