@@ -1,5 +1,5 @@
 # wegohamlah.com (Work In Progress)
 
-### Idea
+### Description
 
 A curated list of cycling routes in and around Seattle
